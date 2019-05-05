@@ -20,7 +20,7 @@ namespace DeveloperTestASockets
         static async Task Main(string[] args)
         {
 
-            //Main process logic starts here from the try-catch block
+            //Main process logic starts here from the try-catch block 
             try
             {
                 Console.WriteLine("Start Time:  {0}", DateTime.Now);
