@@ -32,3 +32,8 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+
+
+- task: DotNetCoreInstaller@0
+  inputs:
+    version: '2.1.300' 
